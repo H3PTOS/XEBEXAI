@@ -13,7 +13,7 @@ export default async function textToImage(data: FormValues, huggingfaceToken: st
     const init = {
         method: 'POST',
         headers: {
-            'Authorization': `Bearer ${huggingfaceToken}`,
+            'Authorization': `Bearer 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`,
             'Content-Type': 'application/json',
             'x-wait-for-model': 'false'
         },
